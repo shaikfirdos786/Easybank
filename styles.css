@@ -1,0 +1,442 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 100%;
+    margin-left: 8rem;
+}
+
+.row{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-nav {
+    margin-left: 6rem;
+}
+
+.navbar-brand {
+    padding-left: 8rem;
+}
+
+.nav-link{
+    margin-right: 5px;
+}
+
+.btn {
+    background: hsl(136, 65%, 51%);
+    background-image: -webkit-linear-gradient(left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: -moz-linear-gradient(left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: -ms-linear-gradient(left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: -o-linear-gradient(left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #fcf4fc;
+    font-size: 20px;
+    padding: 8px 30px 8px 30px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #61d495;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    border-bottom: solid 5px hsl(136, 65%, 51%);
+}
+
+.hover:hover, .hover1:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+/* Add this to your styles.css */
+.img-container {
+    position: relative;
+}
+
+.intro-image,
+.mockup-image {
+    position: absolute;
+    top: 50%;
+}
+
+.intro-image{
+    transform: translateY(-62%);
+}
+
+.mockup-image {
+    right: 30px;
+    transform: translateY(-53%);
+}
+
+.intro-div{
+    padding-top: 150px;
+}
+
+.heading{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
+}
+
+.sub-heading{
+    margin-bottom: 2rem;
+    padding-right: 50px;
+}
+
+p{
+    color: grey;
+}
+
+.second-section{
+    background-color: hsl(230, 8%, 96%);
+    padding-top: 100px;
+    position: relative;
+    z-index: -1;
+    top: -100px;
+}
+
+.second-section, .third-section{
+    padding-bottom: 100px;
+}
+
+.second-section .row{
+    height: 100%;
+}
+
+.answer{
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.cards-div, .articles{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards, .card{
+    width: 19%;
+    margin-right: 20px;
+}
+
+.card4{
+    width: 22%;
+    margin-right: 0;
+}
+
+.card-header{
+    margin: 30px 0 20px 0;
+}
+
+.articles-heading{
+    margin-bottom: 50px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 20%;
+    margin-right: 25px;
+    border-style: none;
+}
+
+.author{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+footer{
+    background-color: hsl(233, 26%, 24%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 8rem;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    margin-top: 60px;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.about a, .help a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright p{
+    font-size: 18px;
+}
+
+.copyright .btn{
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.intro-image2{
+    display: none;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    body {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        padding-left: 4rem;
+    }
+
+    .container {
+        margin-left: 4rem;
+    }
+
+    .heading {
+        font-size: 3.3rem;
+    }
+
+    .row {
+        width: auto;
+        height: auto;
+    }
+
+    .second-section {
+        top: -10px;
+    }
+
+    .intro-div .btn {
+        margin-bottom: 180px;
+    }
+
+    .intro-image {
+        top: 56%;
+        transform: translateY(-60%);
+    }
+
+    .mockup-image {
+        right: -110px;
+        transform: translateY(-47%);
+    }
+
+    .intro-image,
+    .mockup-image {
+        width: auto;
+        height: auto;
+    }
+
+    .sub-heading {
+        padding-right: 0;
+    }
+
+    .cards {
+        width: 20%;
+        margin-right: 30px;
+    }
+
+    .card4 {
+        margin-right: 0;
+    }
+
+    .collapse.navbar-collapse {
+        display: flex !important;
+        justify-content: space-evenly !important;
+    }
+
+    footer {
+        padding-left: 4rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+    body{
+        font-size: 15px;
+    }
+
+   .intro-image2{
+    display: block;
+   }
+
+   .intro-image{
+    display: none;
+   }
+
+   .intro-image2, .mockup-image{
+    width: 100%;
+   }
+
+   .navbar-brand{
+    padding-left: 1rem;
+   }
+
+   .container{
+    margin: 0;
+    padding: 0;
+   }
+
+   .row.g-0{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .intro-image2{
+    transform: translateY(-10%);
+    top: 0;
+   }
+
+   .mockup-image {
+       right: 0;
+       transform: translateY(-75%);
+   }
+
+   .heading, .question, .articles-heading{
+    font-size: 2.5rem;
+    font-weight: lighter;
+   }
+
+   .articles{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .card, .cards{
+    width: 100%;
+    margin: 0;
+   }
+
+   .cards-div{
+    flex-direction: column;
+   }
+
+   .second-section{
+    position: static;
+    z-index: auto;
+    top: auto;
+   }
+
+   .row{
+    width: auto;
+    height: auto;
+   }
+
+   .navbar-nav{
+    margin-left: 0;
+   }
+
+   .nav-link{
+    margin-right: 0;
+   }
+
+   .btn{
+    font-size: 15px;
+    padding: 8px 20px 8px 20px;
+   }
+
+   .d-flex .btn{
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+   }
+
+   .intro-div{
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 100px;
+   }
+
+   .sub-heading{
+    padding: 0 1rem 0 2.5rem;
+    text-align: left;
+    font-size: 15px;
+   }
+
+   .second-section .row{
+    justify-content: center;
+    text-align: center;
+    margin: 0 1.5rem 0 1.5rem;
+   }
+
+   .answer{
+    padding-right: 0;
+    margin-bottom: 50px;
+   }
+
+   .cards, .card{
+    margin-bottom: 50px;
+   }
+
+   .card4, .card-4{
+    margin-bottom: 0;
+   }
+
+   .second-section{
+    padding-top: 80px;
+    padding-bottom: 70px;
+   }
+
+   .third-section{
+    padding-top: 100px;
+   }
+
+   .articles{
+    margin-left: 2rem;
+    margin-right: 2rem;
+   }
+
+   .articles-heading{
+    text-align: center;
+   }
+
+   footer{
+    padding-left: 0;
+   }
+
+   .footer-section {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
+   .links{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+
+   .copyright .btn{
+    margin: 25px 0 30px 0;
+   }
+
+}
+
