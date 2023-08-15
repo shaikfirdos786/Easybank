@@ -175,6 +175,10 @@ p{
     border-style: none;
 }
 
+.card-title{
+    font-size: 1.5rem;
+}
+
 .author{
     font-size: 12px;
     margin-top: 20px;
