@@ -54,6 +54,8 @@ body{
     text-decoration: none;
 }
 
+/* hover styles */
+
 .btn:hover {
     background: #61d495;
     color: white;
@@ -64,11 +66,12 @@ body{
     border-bottom: solid 5px hsl(136, 65%, 51%);
 }
 
-.hover:hover, .hover1:hover{
+.hover:hover, .card-title:hover{
     color: hsl(136, 65%, 51%);
 }
 
-/* Add this to your styles.css */
+/* styles for first section */
+
 .img-container {
     position: relative;
 }
@@ -103,9 +106,13 @@ body{
     padding-right: 50px;
 }
 
+/* style for all p tag elements */
+
 p{
     color: grey;
 }
+
+/* styles for second section */
 
 .second-section{
     background-color: hsl(230, 8%, 96%);
@@ -148,8 +155,13 @@ p{
     margin: 30px 0 20px 0;
 }
 
+/* styles for third section */
+
 .articles-heading{
     margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: black;
 }
 
 .card img{
@@ -171,6 +183,8 @@ p{
 .card-text{
     font-size: 15px;
 }
+
+/* styles for footer  */
 
 footer{
     background-color: hsl(233, 26%, 24%);
@@ -205,6 +219,8 @@ footer{
     margin-left: 80px;
     margin-bottom: 40px;
 }
+
+/* style for first section image */
 
 .intro-image2{
     display: none;
@@ -360,7 +376,7 @@ footer{
    }
 
    .btn{
-    font-size: 15px;
+    font-size: 16px;
     padding: 8px 20px 8px 20px;
    }
 
@@ -437,9 +453,9 @@ footer{
     margin: 25px 0 30px 0;
    }
 
-    .nav-link:hover{
-    border-bottom: none;
-    }
+   .nav-link:hover {
+       border-bottom: none;
+   }
 
 }
 
