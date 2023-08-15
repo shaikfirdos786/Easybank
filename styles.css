@@ -439,7 +439,7 @@ footer{
    }
 
     .nav-link:hover{
-    border-bottom: solid 5px hsl(136, 65%, 51%);
+    border-bottom: none;
     }
 
 }
